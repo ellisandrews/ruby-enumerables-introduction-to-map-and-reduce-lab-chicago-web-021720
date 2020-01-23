@@ -5,3 +5,11 @@ def map_to_negativize(array)
   end
   new_array
 end
+
+def map_to_no_change(array)
+  new_array = []
+  array.length.times do |i|
+    new_array << array[i]
+  end
+  new_array
+end
