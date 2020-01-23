@@ -22,7 +22,7 @@ def map_to_double(array)
   new_array
 end
 
-def map_to_double(array)
+def map_to_square(array)
   new_array = []
   array.length.times do |i|
     new_array << array[i] ** 2
