@@ -29,3 +29,4 @@ def map_to_double(array)
   end
   new_array
 end
+
