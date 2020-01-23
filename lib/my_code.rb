@@ -32,5 +32,9 @@ end
 
 def reduce_to_total(array)
   total = 0
-  
+  array.length.times do |i|
+    total += array[i]
+  end
+  total
 end
+
